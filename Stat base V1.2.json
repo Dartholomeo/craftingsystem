@@ -1,0 +1,1129 @@
+{
+  "jobs": {
+    "fabbro": {
+      "id": "fabbro",
+      "name": "Fabbro",
+      "icon": "fa-hammer",
+      "color": "#f59e0b",
+      "desc": "Forgia armi, armature e metalli preziosi.",
+      "progressionType": "exp_prestige",
+      "specialJob": false,
+      "masterJob": false,
+      "maxLevel": 10,
+      "unlockText": "Richiede 10 Forza e 12 Costituzione.",
+      "specUnlockLevel": 7,
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 10,
+            "con": 12,
+            "dex": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "4": {
+          "stats": {
+            "str": 12,
+            "con": 14,
+            "dex": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "7": {
+          "stats": {
+            "str": 15,
+            "con": 16
+          },
+          "proficiencies": [
+            {
+              "type": "save",
+              "key": "str",
+              "label": "TS Forza"
+            },
+            {
+              "type": "save",
+              "key": "con",
+              "label": "TS Costituzione"
+            }
+          ]
+        },
+        "10": {
+          "stats": {},
+          "proficiencies": [],
+          "requiredSpecialization": "chimico_metallurgico"
+        }
+      },
+      "reqStats": {
+        "str": 10,
+        "dex": 0,
+        "con": 12,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+      }
+    },
+    "alchimista": {
+      "id": "alchimista",
+      "name": "Alchimista",
+      "icon": "fa-flask-vial",
+      "color": "#38bdf8",
+      "desc": "Mixa pozioni, reagenti ed elisir arcani.",
+      "progressionType": "exp_prestige",
+      "specialJob": false,
+      "masterJob": false,
+      "maxLevel": 10,
+      "unlockText": "Richiede 12 Intelligenza, 10 Saggezza.",
+      "specUnlockLevel": 7,
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "int": 12,
+            "wis": 10,
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "4": {
+          "stats": {
+            "int": 14,
+            "wis": 12
+          },
+          "proficiencies": []
+        },
+        "7": {
+          "stats": {
+            "int": 0,
+            "wis": 0,
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "cha": 0
+          },
+          "proficiencies": [
+            {
+              "type": "skill",
+              "key": "hist",
+              "label": "Storia"
+            },
+            {
+              "type": "skill",
+              "key": "natu",
+              "label": "Natura"
+            }
+          ]
+        },
+        "10": {
+          "stats": {},
+          "proficiencies": [],
+          "requiredSpecialization": "chimico_metallurgico"
+        }
+      },
+      "reqStats": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 12,
+        "wis": 10,
+        "cha": 0
+      }
+    },
+    "gemmologo": {
+      "id": "gemmologo",
+      "name": "Gemmologo",
+      "icon": "fa-gem",
+      "color": "#a855f7",
+      "desc": "Studio, taglio e lavorazione delle gemme e pietre preziose.",
+      "progressionType": "exp_prestige",
+      "specialJob": false,
+      "masterJob": false,
+      "maxLevel": 10,
+      "unlockText": "Richiede 10 Intelligenza e 12 in saggezza.",
+      "specUnlockLevel": 7,
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "int": 10,
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "wis": 12,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "4": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 12,
+            "wis": 14,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "7": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": [
+            {
+              "type": "skill",
+              "key": "hist",
+              "label": "Storia"
+            },
+            {
+              "type": "skill",
+              "key": "natu",
+              "label": "Natura"
+            }
+          ]
+        },
+        "10": {
+          "stats": {},
+          "proficiencies": [],
+          "requiredSpecialization": "forgiacristalli"
+        }
+      },
+      "reqStats": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 10,
+        "wis": 12,
+        "cha": 0
+      }
+    },
+    "erudito": {
+      "id": "erudito",
+      "name": "Erudito",
+      "icon": "fa-book-open-reader",
+      "color": "#60a5fa",
+      "desc": "Studioso delle arti, delle scienze e delle conoscenze perdute.",
+      "progressionType": "exp_prestige",
+      "specialJob": false,
+      "masterJob": false,
+      "maxLevel": 10,
+      "unlockText": "Richiede 12 Intelligenza e competenza in Storia.",
+      "specUnlockLevel": 7,
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "int": 12
+          },
+          "proficiencies": [
+            {
+              "type": "skill",
+              "key": "hist",
+              "label": "Storia"
+            }
+          ]
+        },
+        "4": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 14,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": [
+            {
+              "type": "skill",
+              "key": "arca",
+              "label": "Arcana"
+            }
+          ]
+        },
+        "7": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": [
+            {
+              "type": "mastery",
+              "key": "arca",
+              "label": "Arcana"
+            }
+          ]
+        },
+        "10": {
+          "stats": {},
+          "proficiencies": [],
+          "requiredSpecialization": "pansofista"
+        }
+      }
+    },
+    "medico": {
+      "id": "medico",
+      "name": "Medico",
+      "icon": "fa-kit-medical",
+      "color": "#34d399",
+      "desc": "Diagnosi, cura, chirurgia e trattamento delle ferite.",
+      "progressionType": "exp_prestige",
+      "specialJob": false,
+      "masterJob": false,
+      "maxLevel": 10,
+      "unlockText": "Richiede 12 intelligenza e competenza in Medicina.",
+      "specUnlockLevel": 7,
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "wis": 0,
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 12,
+            "cha": 0
+          },
+          "proficiencies": [
+            {
+              "type": "skill",
+              "key": "medi",
+              "label": "Medicina"
+            }
+          ]
+        },
+        "4": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 14,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": [
+            {
+              "type": "skill",
+              "key": "natu",
+              "label": "Natura"
+            }
+          ]
+        },
+        "7": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": [
+            {
+              "type": "mastery",
+              "key": "acro",
+              "label": "Acrobazia"
+            }
+          ]
+        },
+        "10": {
+          "stats": {},
+          "proficiencies": [],
+          "requiredSpecialization": "archiatra"
+        }
+      },
+      "reqStats": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 12,
+        "wis": 0,
+        "cha": 0
+      }
+    },
+    "diplomatico": {
+      "id": "diplomatico",
+      "name": "Diplomatico",
+      "icon": "fa-handshake",
+      "color": "#fbbf24",
+      "desc": "Negozia accordi, media conflitti e padroneggia il protocollo.",
+      "progressionType": "exp_prestige",
+      "specialJob": false,
+      "masterJob": false,
+      "maxLevel": 10,
+      "unlockText": "Richiede 12 Carisma e competenza in Persuasione.",
+      "specUnlockLevel": 7,
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "cha": 12,
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0
+          },
+          "proficiencies": [
+            {
+              "type": "skill",
+              "key": "pers",
+              "label": "Persuasione"
+            }
+          ]
+        },
+        "4": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 14
+          },
+          "proficiencies": [
+            {
+              "type": "skill",
+              "key": "insi",
+              "label": "Intuizione"
+            }
+          ]
+        },
+        "7": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": [
+            {
+              "type": "mastery",
+              "key": "insi",
+              "label": "Intuizione"
+            },
+            {
+              "type": "mastery",
+              "key": "pers",
+              "label": "Persuasione"
+            }
+          ]
+        },
+        "10": {
+          "stats": {},
+          "proficiencies": [],
+          "requiredSpecialization": "pansofista"
+        }
+      },
+      "reqStats": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 12
+      }
+    },
+    "sarto": {
+      "id": "sarto",
+      "name": "Sarto",
+      "icon": "fa-scissors",
+      "color": "#fb7185",
+      "desc": "Lavorazione di tessuti, stoffe, abiti e cuciture alchemiche.",
+      "progressionType": "exp_prestige",
+      "specialJob": false,
+      "masterJob": false,
+      "maxLevel": 10,
+      "unlockText": "",
+      "specUnlockLevel": 7,
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "dex": 0,
+            "str": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      },
+      "reqStats": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+      }
+    },
+    "pellettiere": {
+      "id": "pellettiere",
+      "name": "Pellettiere",
+      "icon": "fa-cow",
+      "color": "#c08457",
+      "desc": "Concia e lavora pelli, cuoio e materiali organici resistenti.",
+      "progressionType": "exp_prestige",
+      "specialJob": false,
+      "masterJob": false,
+      "maxLevel": 10,
+      "unlockText": "",
+      "specUnlockLevel": 7,
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "dex": 0,
+            "str": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "10": {
+          "stats": {},
+          "proficiencies": [],
+          "requiredSpecialization": "cuoco"
+        }
+      },
+      "reqStats": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+      }
+    },
+    "chimico_metallurgico": {
+      "id": "chimico_metallurgico",
+      "name": "Chimico Metallurgico",
+      "icon": "fa-flask-vial",
+      "color": "#06b6d4",
+      "desc": "Job speciale: unisce alchimia e metallurgia. Sale solo con Punti Prestigio.",
+      "progressionType": "prestige_only",
+      "specialJob": true,
+      "masterJob": false,
+      "baseUnlocked": false,
+      "maxLevel": 5,
+      "requiredJobs": {
+        "alchimista": 7,
+        "fabbro": 7
+      },
+      "unlockText": "Sbloccato da Alchimista 7 + Fabbro 7",
+      "levelRequirements": {
+        "5": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 16,
+            "wis": 14,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "forgiacristalli": {
+      "id": "forgiacristalli",
+      "name": "Forgiacristalli",
+      "icon": "fa-gem",
+      "color": "#22c55e",
+      "desc": "Job speciale: forgiatura incantata di cristalli e gemme. Sale solo con Punti Prestigio.",
+      "progressionType": "prestige_only",
+      "specialJob": true,
+      "masterJob": false,
+      "baseUnlocked": false,
+      "maxLevel": 5,
+      "requiredJobs": {
+        "fabbro": 7,
+        "gemmologo": 7
+      },
+      "unlockText": "Sbloccato da Fabbro 7 + Gemmologo 7",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "5": {
+          "stats": {
+            "str": 14,
+            "dex": 0,
+            "con": 0,
+            "int": 16,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "cuoco": {
+      "id": "cuoco",
+      "name": "Cuoco",
+      "icon": "fa-utensils",
+      "color": "#f97316",
+      "desc": "Job speciale dedicato alla trasformazione di ingredienti, preparazioni e ricette complesse.",
+      "progressionType": "prestige_only",
+      "specialJob": true,
+      "masterJob": false,
+      "baseUnlocked": false,
+      "maxLevel": 5,
+      "requiredJobs": {
+        "alchimista": 7,
+        "pellettiere": 7
+      },
+      "unlockText": "",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "pansofista": {
+      "id": "pansofista",
+      "name": "Pansofista",
+      "icon": "fa-brain",
+      "color": "#818cf8",
+      "desc": "Job speciale: sintesi superiore di sapere, retorica e comprensione interdisciplinare.",
+      "progressionType": "prestige_only",
+      "specialJob": true,
+      "masterJob": false,
+      "baseUnlocked": false,
+      "maxLevel": 5,
+      "requiredJobs": {
+        "erudito": 7,
+        "diplomatico": 7
+      },
+      "unlockText": "Sbloccato da Erudito 7 + Diplomatico 7",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "5": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 16,
+            "wis": 14,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "archiatra": {
+      "id": "archiatra",
+      "name": "Archiatra",
+      "icon": "fa-staff-snake",
+      "color": "#10b981",
+      "desc": "Job speciale: medicina d'eccellenza, chirurgia avanzata e dottrina clinica.",
+      "progressionType": "prestige_only",
+      "specialJob": true,
+      "masterJob": false,
+      "baseUnlocked": false,
+      "maxLevel": 5,
+      "requiredJobs": {
+        "medico": 7,
+        "erudito": 7
+      },
+      "unlockText": "Sbloccato da Medico 7 + Erudito 7",
+      "levelRequirements": {
+        "5": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 14,
+            "wis": 16,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "chimico_biomedico": {
+      "id": "chimico_biomedico",
+      "name": "Chimico Biomedico",
+      "icon": "fa-dna",
+      "color": "#2dd4bf",
+      "desc": "Job speciale: unisce chimica, medicina e ricerca sui processi biologici.",
+      "progressionType": "prestige_only",
+      "specialJob": true,
+      "masterJob": false,
+      "baseUnlocked": false,
+      "maxLevel": 5,
+      "requiredJobs": {
+        "alchimista": 7,
+        "medico": 7
+      },
+      "unlockText": "Sbloccato da Alchimista 7 + Medico 7",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "5": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 14,
+            "wis": 14,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "mercante": {
+      "id": "mercante",
+      "name": "Mercante",
+      "icon": "fa-coins",
+      "color": "#eab308",
+      "desc": "Job speciale: commercio, valutazione, negoziazione e gestione di beni rari. Sale solo con Punti Prestigio.",
+      "progressionType": "prestige_only",
+      "specialJob": true,
+      "masterJob": false,
+      "baseUnlocked": false,
+      "maxLevel": 5,
+      "requiredJobs": {
+        "diplomatico": 7
+      },
+      "unlockText": "Sbloccato da Diplomatico 7",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "5": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 20
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "forgia_rune": {
+      "id": "forgia_rune",
+      "name": "Forgia Rune",
+      "icon": "fa-hammer",
+      "color": "#ef4444",
+      "desc": "Master Job: incide, stabilizza e fonde rune direttamente nei materiali lavorati.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "forgiacristalli": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Forgiacristalli a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        },
+        "5": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "tecnomante": {
+      "id": "tecnomante",
+      "name": "Tecnomante",
+      "icon": "fa-microchip",
+      "color": "#dc2626",
+      "desc": "Master Job: integra tecnologia, circuiti e flussi arcani in sistemi complessi.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "forgiacristalli": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Forgiacristalli a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "archivista_della_genesi": {
+      "id": "archivista_della_genesi",
+      "name": "Archivista della Genesi",
+      "icon": "fa-book-skull",
+      "color": "#dc2626",
+      "desc": "Master Job: custodisce, ricostruisce e interpreta le origini della conoscenza.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "pansofista": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Pansofista a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "cronomante_della_materia": {
+      "id": "cronomante_della_materia",
+      "name": "Cronomante della Materia",
+      "icon": "fa-hourglass-half",
+      "color": "#b91c1c",
+      "desc": "Master Job: studia e manipola il rapporto tra tempo, struttura e materia.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "pansofista": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Pansofista a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "tossicologo": {
+      "id": "tossicologo",
+      "name": "Tossicologo",
+      "icon": "fa-skull-crossbones",
+      "color": "#f43f5e",
+      "desc": "Master Job: studio, raffinazione e controllo di tossine e antidoti.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "archiatra": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Archiatra a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "patologo": {
+      "id": "patologo",
+      "name": "Patologo",
+      "icon": "fa-lungs",
+      "color": "#fb7185",
+      "desc": "Master Job: analizza alterazioni, malattie e anomalie dei tessuti viventi.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "archiatra": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Archiatra a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "estrattore_di_purezza": {
+      "id": "estrattore_di_purezza",
+      "name": "Estrattore di Purezza",
+      "icon": "fa-filter-circle-dollar",
+      "color": "#e11d48",
+      "desc": "Master Job: separa impurità e isola componenti di estrema purezza.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "chimico_metallurgico": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Chimico Metallurgico a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "maestor_delle_leghe_sintetiche": {
+      "id": "maestor_delle_leghe_sintetiche",
+      "name": "Maestor delle Leghe Sintetiche",
+      "icon": "fa-atom",
+      "color": "#be123c",
+      "desc": "Master Job: progetta leghe artificiali e materiali compositi fuori standard.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "chimico_metallurgico": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Chimico Metallurgico a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "vettori_arcani": {
+      "id": "vettori_arcani",
+      "name": "Vettori Arcani",
+      "icon": "fa-bolt",
+      "color": "#f87171",
+      "desc": "Master Job: canalizza, stabilizza e trasferisce flussi di energia arcana.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "chimico_biomedico": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Chimico Biomedico a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    },
+    "ingegnere_dei_mutageni": {
+      "id": "ingegnere_dei_mutageni",
+      "name": "Ingegnere dei Mutageni",
+      "icon": "fa-vial-circle-check",
+      "color": "#991b1b",
+      "desc": "Master Job: progetta mutageni e processi di trasformazione biologica controllata.",
+      "progressionType": "prestige_only",
+      "specialJob": false,
+      "masterJob": true,
+      "maxLevel": 5,
+      "requiredSpecialJobs": {
+        "chimico_biomedico": 5
+      },
+      "requiredSpecialMode": "any",
+      "unlockText": "Richiede Attestato da master, Chimico Biomedico a 5 stelle e uno slot Master libero.",
+      "levelRequirements": {
+        "1": {
+          "stats": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "proficiencies": []
+        }
+      }
+    }
+  },
+  "thresholds": {
+    "normal": {
+      "1": {
+        "expReq": 0,
+        "prestigeReq": 0
+      },
+      "2": {
+        "expReq": 200,
+        "prestigeReq": 20
+      },
+      "3": {
+        "expReq": 400,
+        "prestigeReq": 40
+      },
+      "4": {
+        "expReq": 600,
+        "prestigeReq": 60
+      },
+      "5": {
+        "expReq": 800,
+        "prestigeReq": 80
+      },
+      "6": {
+        "expReq": 1000,
+        "prestigeReq": 100
+      },
+      "7": {
+        "expReq": 1500,
+        "prestigeReq": 150
+      },
+      "8": {
+        "expReq": 3000,
+        "prestigeReq": 300
+      },
+      "9": {
+        "expReq": 6000,
+        "prestigeReq": 600
+      },
+      "10": {
+        "expReq": 10000,
+        "prestigeReq": 1000
+      }
+    },
+    "special": {
+      "1": {
+        "prestigeReq": 0
+      },
+      "2": {
+        "prestigeReq": 20
+      },
+      "3": {
+        "prestigeReq": 40
+      },
+      "4": {
+        "prestigeReq": 80
+      },
+      "5": {
+        "prestigeReq": 160
+      }
+    }
+  }
+}
