@@ -17,8 +17,8 @@
   ],
 
   "url": "https://github.com/Dartholomeo/craftingsystem",
-  "manifest": "https://raw.githubusercontent.com/Dartholomeo/craftingsystem/main/module.json",
-  "download": "https://github.com/Dartholomeo/craftingsystem/releases/download/v1.2.1/craftingsystem.zip",
+  "manifest": "",
+  "download": "",
 
   "system": [
     "dnd5e"
